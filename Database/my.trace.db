@@ -1,0 +1,11 @@
+2022-05-30 14:16:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF [*]EXITS USUARIO; CREATE TABLE USUARIO(ID INT PRIMARY KEY,NOMBRE varchar(100) NOT NULL,EMAIL varchar(100) NOT NULL,SUELDO numeric(15, 2) NOT NULL)"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF [*]EXITS USUARIO; CREATE TABLE USUARIO(ID INT PRIMARY KEY,NOMBRE varchar(100) NOT NULL,EMAIL varchar(100) NOT NULL,SUELDO numeric(15, 2) NOT NULL)"; expected "EXISTS"; SQL statement:
+DROP TABLE IF EXITS USUARIO; CREATE TABLE USUARIO(ID INT PRIMARY KEY,NOMBRE varchar(100) NOT NULL,EMAIL varchar(100) NOT NULL,SUELDO numeric(15, 2) NOT NULL) [42001-212]
+2022-05-30 14:29:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP TABLE IF [*]EXITS USUARIO; CREATE TABLE USUARIO(ID INT PRIMARY KEY,NOMBRE varchar(100) NOT NULL,EMAIL varchar(100) NOT NULL,SUELDO numeric(15, 2) NOT NULL)"; se esperaba "EXISTS"
+Syntax error in SQL statement "DROP TABLE IF [*]EXITS USUARIO; CREATE TABLE USUARIO(ID INT PRIMARY KEY,NOMBRE varchar(100) NOT NULL,EMAIL varchar(100) NOT NULL,SUELDO numeric(15, 2) NOT NULL)"; expected "EXISTS"; SQL statement:
+DROP TABLE IF EXITS USUARIO; CREATE TABLE USUARIO(ID INT PRIMARY KEY,NOMBRE varchar(100) NOT NULL,EMAIL varchar(100) NOT NULL,SUELDO numeric(15, 2) NOT NULL) [42001-212]
+2022-05-30 14:29:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USUARIO" not found (this database is empty); SQL statement:
+SELECT * FROM USUARIO [42104-212]
